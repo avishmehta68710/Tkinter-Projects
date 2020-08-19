@@ -1,13 +1,13 @@
 #coding:utf-8
 
 #A Drum Machine by Tkinter
-from Tkinter import *
-import ttk
+from tkinter import *
+from tkinter import ttk
 import time
 import wave
 import pymedia.audio.sound as sound
-import tkFileDialog
-import tkMessageBox
+import tkinter.tkFileDialog
+from tkinter import messagebox
 import threading
 import pickle
 import os
