@@ -1,10 +1,10 @@
 #coding:utf8
 import os
 
-from Tkinter import *
-import tkFileDialog
-import ttk
-import tkMessageBox
+from tkinter import *
+import tkinter.filedialog
+from tkinter import ttk
+import tkinter.messagebox
 import Pmw
 
 import player
@@ -253,11 +253,11 @@ class GUI:
 
 	def toggle_mute(self):
 		if self.mutebtn.config('text')[-1] == 'unmute':
-			print self.mutebtn.config('text')
+			print(self.mutebtn.config('text'))
 			self.mutebtn.config(text='mute', image=self.muteicon)
 			self.player.mute()
 		elif self.mutebtn.config('text')[-1] == 'mute':
-			print self.mutebtn.config('text')
+			print(self.mutebtn.config('text'))
 			self.mutebtn.config(text='unmute', image=self.unmuteicon)
 			self.player.unmute()
 
