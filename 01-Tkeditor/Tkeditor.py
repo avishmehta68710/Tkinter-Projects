@@ -1,6 +1,6 @@
-from Tkinter import *
-import tkFileDialog
-import tkMessageBox
+from tkinter import *
+import tkinter.filedialog
+from tkinter import messagebox
 import os
 
 root = Tk()
